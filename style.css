@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+}
+
+
+#header-nav {
+    background-color: black;
+    border: 0;
+    border-radius: 0;
+}
+
+#header-nav button {
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: white;
+}
+
+.navbar-collapse {
+    border-top: 0;
+    margin-top: 50px;
+}
+
+.navbar-brand p{
+    color: white;
+    font-size: 30px;
+}
+#nav-list {
+    background-color: white;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+    border: 2px solid black;
+}
+
+#nav-list a:hover {
+    background-color:whitesmoke;
+}
+
+#main{
+    width: 90%;
+    margin: 20px;
+}
+
+#Chicken, #Beef, #Sushi{
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media (min-width: 768px){
+    .navbar-toggle{
+        display: none;
+    }
+
+}
